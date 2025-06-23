@@ -1,0 +1,54 @@
+.ant-layout {
+  height: 100%;
+}
+
+.header {
+  padding: 0;
+  background-color: #C27BA0; // 修改上方栏背景颜色为较深的粉紫色
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  background: url('~@/assets/logo.png') no-repeat center / 160px auto;
+}
+
+.layout-content {
+  overflow-y: auto;
+}
+
+.user-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 20px;
+  color: #fff;
+  
+  .user-name {
+    margin-right: 20px;
+  }
+  
+  .user-logout {
+    display: inline-block;
+    cursor: pointer;
+  }
+}
+.ant-layout-header {
+  padding: 0 !important;
+}
+
+// 修改 Menu 的高亮颜色
+.ant-menu-light.ant-menu-inline .ant-menu-item-selected {
+  background-color: #F0E1F6 !important; // 修改背景颜色为淡粉紫色
+  color: #000 !important; // 修改文字颜色为黑色
+}
+
+// 样式化“模型”小标题
+.menu-title {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #F0E1F6; // 背景颜色与菜单背景一致
+  border-bottom: 1px solid #E0D8E6; // 添加底部边框
+}

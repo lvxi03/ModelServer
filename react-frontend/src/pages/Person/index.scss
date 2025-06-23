@@ -1,0 +1,85 @@
+.real-name-authentication-content {
+  display: flex;
+  justify-content: flex-start; /* 修改为flex-start，让内容靠左 */
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f0f2f5;
+  padding-top: 20px;
+}
+
+.warning-message {
+  background-color: #fff7cc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: #ff8500;
+  font-size: 12px;
+  width: 100%; /* 让警告信息宽度为100%，贯穿页面 */
+  text-align: center;
+}
+
+.real-name-authentication-form {
+  width: 600px;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .anticon {
+      margin-right: 8px;
+    }
+
+    .ant-input {
+      flex: 1;
+    }
+  }
+
+  .agreement-group {
+    margin-bottom: 20px;
+  }
+
+  .ant-btn-primary {
+    width: 100%;
+  }
+
+  a {
+    color: #1890ff;
+  }
+}
+
+/* 移除Ant Design表单的默认样式 */
+.no-border-form {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.no-border-form .-formant-item {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.no-border-form .ant-form-item-control {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.no-border-form .ant-form-item-label {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.no-border-form .ant-form-item-content {
+  border: none !important;
+  box-shadow: none !important;
+}
